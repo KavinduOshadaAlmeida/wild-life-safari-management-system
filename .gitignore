@@ -1,0 +1,31 @@
+# Build output and dependencies
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+frontend/node_modules/
+frontend/dist/
+HELP.md
+
+# IDE and tool settings
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local secrets and personal files (never commit these)
+.env
+frontend/.env.local
+run-backend-friend.cmd
+Claude outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
